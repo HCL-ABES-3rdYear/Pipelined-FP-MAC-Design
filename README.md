@@ -42,8 +42,8 @@ The MAC operation is:
 | Slice LUTs | 1,243 |
 | Flip-Flops (FF) | 345 |
 | DSP Blocks | 2 |
-| Worst Hold Slack (WHS) | +0.132 ns |
-| Worst Negative Slack (WNS) | -1.091 ns |
+| Worst Hold Slack (WHS) | +0.119 ns |
+| Worst Negative Slack (WNS) | -0.886 ns |
 
 ## Verification
 The design was tested using functional and throughput testbenches. Both simulations passed for the tested input combinations.
