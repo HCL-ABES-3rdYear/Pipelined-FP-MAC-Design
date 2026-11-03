@@ -15,18 +15,39 @@ The MAC operation is:
 - Verilog HDL
 - Xilinx Floating Point IP
 
-## Key Features
-- IEEE-754 single-precision floating-point arithmetic
+## Features
+- 32-bit IEEE-754 format
 - Floating-point multiplication and addition
-- Pipelined architecture
-- Simulation and synthesis analysis
+- Five pipeline register stages
+- Functional verification
+- Throughput verification
+- FPGA synthesis and timing analysis
 
-## Project Results
-The repository contains the block design, HDL wrapper, simulation waveforms, throughput analysis, synthesis results, resource utilization, timing analysis, and project report.
+## Tools Used
+- Xilinx Vivado 2023.2
+- Verilog HDL
+- Target FPGA Part: xc7z020clg400-1
 
-## FPGA Target
-- Device: xc7z020clg400-1
+- ## Verification Results
+
+| Test Suite | Passed | Failed |
+|---|---:|---:|
+| Functional Tests | 12 | 0 |
+| Throughput Tests | 7 | 0 |
+
+## Synthesis Results
+
+| Parameter | Result |
+|---|---|
+| Slice LUTs | 1,243 |
+| Flip-Flops (FF) | 345 |
+| DSP Blocks | 2 |
+| Worst Hold Slack (WHS) | +0.132 ns |
+| Worst Negative Slack (WNS) | -1.091 ns |
+
+## Verification
+The design was tested using functional and throughput testbenches. Both simulations passed for the tested input combinations.
 
 ## Author
-Shreya Palak  
-B.Tech – Electronics and Communication Engineering
+
+**Shreya Palak**  
