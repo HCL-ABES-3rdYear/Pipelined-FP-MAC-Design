@@ -26,7 +26,7 @@ The MAC operation is:
 ## Tools Used
 - Xilinx Vivado 2023.2
 - Verilog HDL
-- Target FPGA Part: xc7z020clg400-1
+- Target FPGA Part: xc7a100tcsg324-1
 
 ## Verification Results
 
