@@ -28,7 +28,7 @@ The MAC operation is:
 - Verilog HDL
 - Target FPGA Part: xc7z020clg400-1
 
-- ## Verification Results
+## Verification Results
 
 | Test Suite | Passed | Failed |
 |---|---:|---:|
